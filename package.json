@@ -1,0 +1,17 @@
+{
+  "name": "khali-class-dhundo-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.3",
+    "sqlite3": "^5.1.6",
+    "ws": "^8.21.0"
+  },
+  "scripts": {
+    "setup": "node setup.js",
+    "start": "node server.js"
+  }
+}
